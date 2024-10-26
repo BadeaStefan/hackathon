@@ -1,0 +1,143 @@
+body {
+    height: 100%;
+}
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-div {
+    background-color: cadetblue;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .form-div input {
+        padding: 10px;
+        margin: 10px;
+        width: 25vh;
+        border: none;
+    }
+
+    .form-div p {
+        margin: 15px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .form-div .button {
+        margin: 10px;
+        background-color: coral;
+        border: none;
+        font-size: 20px;
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+    }
+
+        .form-div .button:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+.navbar{
+    display:flex;
+    align-self:flex-end;
+    border:10px;
+    background-color:white;
+    border:10px;
+}
+    .navbar button {
+        display: flex;
+        align-self: flex-end;
+        margin:10px;
+        padding:10px;
+        font-size:20px;
+        margin-right:0;
+    }
+
+.navbar ul{
+    list-style-type:none;
+    display:flex;
+    margin:0;
+    padding:5px;
+
+}
+
+.navbar ul li{
+    
+}
+#parties {
+    width: 90%;
+    max-width: 70rem;
+    list-style: none;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+
+.party-item {
+    background-color: #1d1a16;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    color:white;
+}
+.party-item button{
+    color:black;
+    margin:10px;
+    font-weight:bold;
+}
+.party-item:hover {
+    opacity: 0.95;
+    background-color: dimgray;
+}
+
+    .party-item article {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .party-item img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .party-item h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0.75rem 0;
+    }
+
+.party-item {
+    margin: 1rem;
+}
+.bs {
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    margin-top: 20px !important;
+    border-radius: 5px !important;
+    padding: 20px !important;
+}
+
+.link{
+    text-decoration:none;
+    display:block;
+    color:black;
+}
